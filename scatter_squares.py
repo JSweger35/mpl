@@ -18,4 +18,4 @@ ax.tick_params(axis='both', which='major', labelsize='14')
 # Set the range for each axis
 ax.axis([0, 1100, 0, 1100000])
 
-plt.show()
+plt.savefig('square_plot.png', bbox_inches='tight')
