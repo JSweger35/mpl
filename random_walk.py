@@ -10,3 +10,12 @@ class RandomWalk:
         # All walks start at (0,0)
         self.x_values = [0]
         self.y_values = [0]
+        
+    def fill_walk(self):
+        """Calculate all the points in the walk."""
+        
+        # Keep taking steos until the walk reaches the desire lenghts.
+        while len(self.x_values) < self.num_points:
+            
+            # Decide which direction to go and how far to go in that direction
+            x_direction = choice([1, -1])
