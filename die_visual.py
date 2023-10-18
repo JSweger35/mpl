@@ -8,3 +8,6 @@ results = []
 for roll in range(100):
     result = die.roll()
     results.append(result)
+    
+    
+print(results)
