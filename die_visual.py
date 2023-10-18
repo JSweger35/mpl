@@ -1,3 +1,6 @@
+from plotly import Bar, Layout
+from plotly import offline
+
 from die import Die
 
 # create a D6
