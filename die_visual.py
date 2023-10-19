@@ -23,7 +23,9 @@ x_values = list(range(1, die.num_sides+1))
 data = [Bar(x=x_values, y=frequencies)]
 
 x_values_config = {'title': 'Result'}
-x_values_config = {'title': 'Frequency of Result'}
+y_values_config = {'title': 'Frequency of Result'}
+my_layout = Layout(title='Results of rolling one D6 1000 times', xaxis=x_axis_config, yaxis=y_axis_config)
+offline.plot({'data':data, 'layout':my_layout}, filename='d6.html')
     
     
 print(frequencies)
