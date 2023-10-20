@@ -10,7 +10,7 @@ die_2 = Die()
 # Make some rolls, and store results in a list
 results = []
 for roll in range(1000):
-    result = die.roll()
+    result = die_1.roll() + die_2.roll()
     results.append(result)
     
 # Analyze results
