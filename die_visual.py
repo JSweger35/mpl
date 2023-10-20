@@ -3,9 +3,9 @@ from plotly import offline
 
 from die import Die
 
-# create two D6 die
+# create a D6 and a D10 die
 die_1 = Die()
-die_2 = Die()
+die_2 = Die(10)
 
 # Make some rolls, and store results in a list
 results = []
