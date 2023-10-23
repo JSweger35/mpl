@@ -10,8 +10,8 @@ with open(filename) as f:
         
     # Get high temperatures from this file
     highs = []
-    for row in header:
+    for row in reader:
         high = int(row[5])
         highs.append(high)
         
-    print(highs)
+print(highs)
