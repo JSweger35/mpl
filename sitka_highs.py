@@ -16,6 +16,7 @@ with open(filename) as f:
         low = int(row[6])
         dates.append(current_date)
         highs.append(high)
+        lows.append(low)
         
     # Plot the high temps
     plt.style.use('seaborn')
