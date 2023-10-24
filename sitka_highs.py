@@ -11,7 +11,9 @@ with open(filename) as f:
     #Get dates and high temperatures from this file
     dates, highs = [], []
     for row in reader:
+        current_date = datetime.strptime(row[2], '%Y-%m-%d')
         high = int(row[5])
+        date.append(current_date)
         highs.append(high)
         
     # Plot the high temps
