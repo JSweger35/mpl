@@ -22,9 +22,9 @@ with open(filename) as f:
     ax.plot(highs, c='red')
     
     # Format plot.
-    ax.set_title("Daily High Temperatures, July 2018", setfontsize=24)
+    ax.set_title("Daily High Temperatures, July 2018", fontsize=24)
     ax.set_xlabel("", fontsize=16)
-    ax.sety_label("Temperature (F)", fontsize=16)
+    ax.set_ylabel("Temperature (F)", fontsize=16)
     ax.tick_params(axis='both', which='major', labelsize=16)
     
     plt.show()
