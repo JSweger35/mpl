@@ -18,10 +18,11 @@ with open(filename) as f:
         highs.append(high)
         lows.append(low)
         
-    # Plot the high temps
+    # Plot the high and low temps
     plt.style.use('seaborn')
     fig, ax = plt.subplots()
     ax.plot(dates, highs, c='red')
+    ax.plot(dates, lows, c='blue')
     
     # Format plot.
     ax.set_title("Daily High Temperatures - 2018", fontsize=24)
