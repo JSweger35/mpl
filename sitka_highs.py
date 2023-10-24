@@ -19,7 +19,7 @@ with open(filename) as f:
     # Plot the high temps
     plt.style.use('seaborn')
     fig, ax = plt.subplots()
-    ax.plot(highs, c='red')
+    ax.plot(dates, highs, c='red')
     
     # Format plot.
     ax.set_title("Daily High Temperatures, July 2018", fontsize=24)
