@@ -31,7 +31,7 @@ with open(filename) as f:
     
     # Format plot.
     title = "Daily High and Low Temperatures - 2018\nDeath Valley, CA"
-    ax.set_title(title, fontsize=20"
+    ax.set_title(title, fontsize=20)
     ax.set_xlabel("", fontsize=16)
     fig.autofmt_xdate()
     ax.set_ylabel("Temperature (F)", fontsize=16)
