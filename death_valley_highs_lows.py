@@ -12,8 +12,8 @@ with open(filename) as f:
     dates, highs, lows = [], [], []
     for row in reader:
         current_date = datetime.strptime(row[2], '%Y-%m-%d')
-        high = int(row[5])
-        low = int(row[6])
+        high = int(row[4])
+        low = int(row[5])
         dates.append(current_date)
         highs.append(high)
         lows.append(low)
