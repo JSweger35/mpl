@@ -30,10 +30,10 @@ with open(filename) as f:
     fig, ax = plt.subplots()
     ax.plot(dates, highs, c='red', alpha=0.5)
     ax.plot(dates, lows, c='blue', alpha=0.5)
-    ax.fill_between(dates, highs, lows, facecolor='blue', alpha=0.1)
+    #ax.fill_between(dates, highs, lows, facecolor='blue', alpha=0.1)
     
     # Format plot.
-    title = "Daily High and Low Temperatures - 2018\nDeath Valley, CA"
+    title = "Daily High and Low Temperatures - 1900-2023\nPhoenixville, PA"
     ax.set_title(title, fontsize=20)
     ax.set_xlabel("", fontsize=16)
     fig.autofmt_xdate()
