@@ -17,7 +17,7 @@ with open(filename) as f:
         current_date = datetime.strptime(row[2], '%Y-%m-%d')
         try:
             high = int(row[10])
-            low = int(row[11]])
+            low = int(row[11])
         except ValueError:
             print(f"Missing data for {current_date}")
         else:
