@@ -11,4 +11,6 @@ print(len(all_eq_dicts))
 mags = []
 for eq_dict in all_eq_dicts:
     mag = eq_dict['properties']['mag']
-    mags.appeng(mag)
+    mags.append(mag)
+    
+print(mags[:10])
