@@ -11,7 +11,8 @@ print(len(all_eq_dicts))
 mags, lons, lats = [], [], []
 for eq_dict in all_eq_dicts:
     mag = eq_dict['properties']['mag']
-    lon = eq_dic['geometry']['coordinates'][0]
+    lon = eq_dict['geometry']['coordinates'][0]
+    lat = eq_dict['geometry']['coordinates'][1]
     mags.append(mag)
     
 print(mags[:10])
