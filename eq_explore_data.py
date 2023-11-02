@@ -1,5 +1,8 @@
 import json
 
+from plotly.graph_objs import Scattergeo, Layout
+from plotly import offline
+
 # Explore the structure of the data
 filename = 'data/eq_data_1_day_m1.json'
 with open(filename) as f:
