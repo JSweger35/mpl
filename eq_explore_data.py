@@ -18,3 +18,5 @@ for eq_dict in all_eq_dicts:
     lats.append(lat)
     
 print(mags[:10])
+print(lons[:5])
+print(lats[:5])
