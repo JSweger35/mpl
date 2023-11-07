@@ -22,9 +22,9 @@ for eq_dict in all_eq_dicts:
     
 # Map the Eqrthquakes
 data = [{
-    'Type': Scattergeo
-    'lon': lons
-    'lat': lats
+    'Type': Scattergeo, 
+    'lon': lons, 
+    'lat': lats, 
          }]
 my_layout = Layout(title='Global Earthquakes')
 
