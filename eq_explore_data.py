@@ -22,7 +22,7 @@ for eq_dict in all_eq_dicts:
     
 # Map the Eqrthquakes
 data = [{
-    'type': Scattergeo, 
+    'type': 'scattergeo', 
     'lon': lons, 
     'lat': lats, 
          }]
