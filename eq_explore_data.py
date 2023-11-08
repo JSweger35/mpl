@@ -19,7 +19,9 @@ for eq_dict in all_eq_dicts:
     mags.append(mag)
     lons.append(lon)
     lats.append(lat)
-    
+
+filename = 'data/eq_data_30_day_m1.json'
+
 # Map the Eqrthquakes
 data = [{
     'type': 'scattergeo', 
