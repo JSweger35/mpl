@@ -31,7 +31,7 @@ data = [{
         'size': [5*mag for mag in mags],
         'color': mags,
         'colorscale': 'Portland',
-        'reversescale': True,
+        'reversescale': False,
         'colorbar': {'title': 'Magnitude'},
     }
 }]
