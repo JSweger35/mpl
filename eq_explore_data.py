@@ -20,6 +20,7 @@ for eq_dict in all_eq_dicts:
     mags.append(mag)
     lons.append(lon)
     lats.append(lat)
+    hover_texts.append(title)
 
 filename = 'data/eq_data_30_day_m1.json'
 
