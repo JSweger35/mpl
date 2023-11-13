@@ -11,7 +11,7 @@ with open(filename) as f:
 all_eq_dicts = all_eq_data['features']
 print(len(all_eq_dicts))
 
-mags, lons, lats = [], [], []
+mags, lons, lats, hover_texts = [], [], [], []
 for eq_dict in all_eq_dicts:
     mag = eq_dict['properties']['mag']
     lon = eq_dict['geometry']['coordinates'][0]
