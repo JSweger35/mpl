@@ -29,6 +29,7 @@ data = [{
     'type': 'scattergeo', 
     'lon': lons, 
     'lat': lats, 
+    'text': hover_texts,
     'marker': {
         'size': [5*mag for mag in mags],
         'color': mags,
